@@ -1,0 +1,100 @@
+ *{
+ margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html, body{
+ height: 100%;
+ width: 100%;
+}
+
+body{
+    background-color:black;
+    color: rgb(194, 0, 0);
+    text-align: center;
+    margin: 10px;
+    }
+h1{
+    color: rgb(255, 255, 255);
+
+}
+cl{
+    color: rgb(173, 42, 42);
+}
+.msg{
+    font-size:xx-large;
+    color:rgb(0, 17, 250) ;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+.hide{
+    display: none;
+}
+.container{
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.box {
+    height: 140px;
+    width: 160px;
+
+    border-radius: 20px;
+    margin: 5px;
+
+    background-color: rgb(173, 42, 42);
+    color:white;
+    font-size: 60px;
+}
+
+.reset-btn{
+    height: 50px;
+    width: 80px;
+
+    background-color: rgb(173, 42, 42);
+    color: whitesmoke;
+
+    padding: 2px;
+    margin: 20px;
+    font-size: large;
+
+    border-radius: 8px;
+
+}
+
+#new-btn{
+    height: 50px;
+    width: 80px;
+
+    background-color: rgb(173, 42, 42);
+    color: whitesmoke;
+    padding: 2px;
+    margin: 20px;
+    font-size: large;
+
+    border-radius: 8px;
+
+}
+
+#msg{
+    color: whitesmoke;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.msg-container{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.line1 , .line2 , .line3{
+    display: flex;
+}
