@@ -5,7 +5,7 @@ This project helped me strengthen my frontend development skills by combining lo
 
 ## 🔗 Demo Video
 
-👉 [Play the Video]([https://lnkd.in/dwMjY5J9](https://www.linkedin.com/posts/anyaporwal_webdevelopment-javascript-html-activity-7279119058568904704-v1tm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPtVFoB9cxGvs3JVl8uOffFnNVy2zE-wEI))
+👉 [Play the Video](https://www.linkedin.com/posts/anyaporwal_webdevelopment-javascript-html-activity-7279119058568904704-v1tm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPtVFoB9cxGvs3JVl8uOffFnNVy2zE-wEI)
 
 ---
 
