@@ -3,9 +3,11 @@
 Welcome to my **Tic-Tac-Toe** game built using **HTML, CSS, and JavaScript**!  
 This project helped me strengthen my frontend development skills by combining logic, interactivity, and design into a simple yet engaging game.
 
-## 🔗 Demo Video
+## 🔗 Demo Video & Live Game
 
-👉 [Play the Video](https://www.linkedin.com/posts/anyaporwal_webdevelopment-javascript-html-activity-7279119058568904704-v1tm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPtVFoB9cxGvs3JVl8uOffFnNVy2zE-wEI)
+🎥 **Demo Video**: [Watch on LinkedIn](https://www.linkedin.com/posts/anyaporwal_webdevelopment-javascript-html-activity-7279119058568904704-v1tm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPtVFoB9cxGvs3JVl8uOffFnNVy2zE-wEI)
+
+🎮 **Play the Game**: [Try it Live](https://deploy-preview-2--ticctactoeap.netlify.app/)
 
 ## Game Link
 https://ticctactoeap.netlify.app/
