@@ -4,6 +4,13 @@ let newgamebtn = document.querySelector("#new-btn");
 let msgContainer = document.querySelector(".msg-container");
 let msg = document.querySelector("#msg");
 
+let btn = document.querySelector(".toggle");
+let cir = document.querySelector(".circle");
+let body = document.querySelector("body");
+let currState = "white";
+let h1 = document.querySelector("h1");
+let h5 = document.querySelector("h5");
+
 let turn0 = true;
 
 const winPatterns = [
@@ -46,6 +53,10 @@ let boxenable =() =>{
 }
 
 let showWinner =(winner) =>{
+    if(currState === "white"){
+        msg.style.color="rgb(199, 33, 33)";
+    }
+
     msg.innerHTML = "Congrats !! Winner is "+winner;
     msgContainer.classList.remove("hide");
 }
@@ -56,7 +67,7 @@ checkWinner=()=>{
         let val2 = boxes[patterns[1]].innerText;
         let val3 = boxes[patterns[2]].innerText;
 
-        if(val1!="" || val2!="" || val3!=""){
+        if(val1 !=="" || val2 !== "" || val3 !==""){
         if(val1 === val2 && val2 === val3){
             console.log("Winner : "+val1);
             boxdisable();
@@ -80,3 +91,27 @@ newgamebtn.addEventListener("click", () => {
     msgContainer.classList.add("hide");
 
 });
+
+btn.addEventListener("click", () => {
+    btn.classList.toggle("active");
+    if(currState === "white"){
+        cir.style.backgroundColor="white";
+        body.style.backgroundColor="rgb(17, 14, 14)";
+        h1.style.color="rgb(220, 210, 210)";
+
+        msg.style.color="rgb(255, 255, 255)";
+        h5.innerText="Dark Mode";
+        h5.style.color="white";
+        currState = "black";
+
+    }
+    else{
+        cir.style.backgroundColor="black";
+        body.style.backgroundColor="white";
+        h1.style.color="rgb(199, 33, 33)";
+        msg.style.color="rgb(199, 33, 33)";
+        h5.innerText="Light Mode";
+        h5.style.color="black";
+        currState = "white";
+    }
+})
