@@ -8,7 +8,7 @@ This project helped me strengthen my frontend development skills by combining lo
 👉 [Play the Video](https://www.linkedin.com/posts/anyaporwal_webdevelopment-javascript-html-activity-7279119058568904704-v1tm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPtVFoB9cxGvs3JVl8uOffFnNVy2zE-wEI)
 
 ## Game Link
-https://tictactoetog.netlify.app/
+    https://tictactoetog.netlify.app/
 ---
 
 ## 🚀 Tech Stack
